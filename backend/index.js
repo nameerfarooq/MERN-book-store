@@ -19,7 +19,7 @@ app.post("/books", async (request, response) => {
     ) {
       return response.status(400).send({
         message:
-          "Send all required fields: title, author, publishYear please   asdasdas",
+          "Send all required fields: title, author, publishYear",
       });
     }
   } catch (error) {
